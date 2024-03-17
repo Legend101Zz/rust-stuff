@@ -16,6 +16,24 @@ let simulated_random_number = 7;
 generate_workout(simulated_intensity, simulated_random_number);
   }
 
-fn generate_workout(intensity:u32,random_number:u32){
-    
-}
+
+//  ========= APPROACH WITHOUT USE OF CLOSURES =========
+// fn generate_workout(intensity:u32,random_number:u32){
+//     if intensity <25 {
+//       println!("Today, do {} pushups",simulated_expensive_calculation(intensity) ;
+//       println!("Next do , {} situps !",simulated_expensive_calculation(intensity) ;
+//     }
+
+//     else {
+//       if simulated_random_number == 3{
+
+//       println!("Take a break today , remember to stay hydrated") ;
+   
+//       }
+//       else{
+
+//       println!("Today, run for {} minutes",simulated_expensive_calculation(intensity) ;
+   
+//       }
+//     }
+// }
